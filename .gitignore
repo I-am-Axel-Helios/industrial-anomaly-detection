@@ -1,0 +1,29 @@
+# Données industrielles
+data/
+
+# Modèles & configurations entraînés
+models/
+checkpoints/
+*.pth
+*.pt
+*.npz
+
+# Modèles expérientaux temporaires
+outputs/models/
+
+# Environnement Python
+.venv/
+venv.
+__pycache__/
+*.pyc
+
+# Fichiers temporaires
+.ipynb_checkpoints/
+
+# Variables locales et secrets
+.env
+.env.*
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db

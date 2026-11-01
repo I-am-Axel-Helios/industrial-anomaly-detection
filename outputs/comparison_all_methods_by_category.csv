@@ -1,0 +1,17 @@
+Méthode,Catégorie,Images,Alertes,Taux d'alerte,Précision pixel,Rappel pixel,Pixel IoU,FP pixel
+OpenCV,good,20,0,0.0,,,,2562
+OpenCV,broken_large,20,2,0.1,0.5777,0.0454,0.044,5096
+OpenCV,broken_small,22,5,0.2273,0.6577,0.1543,0.1428,3551
+OpenCV,contamination,21,7,0.3333,0.577,0.0713,0.0678,6112
+CNN V1,good,20,5,0.25,,,,3867
+CNN V1,broken_large,20,11,0.55,0.7717,0.0424,0.0419,1925
+CNN V1,broken_small,22,8,0.3636,0.7047,0.1449,0.1366,2684
+CNN V1,contamination,21,8,0.381,0.3496,0.022,0.0211,4784
+CNN V2,good,20,9,0.45,,,,3990
+CNN V2,broken_large,20,19,0.95,0.753,0.1021,0.0988,5141
+CNN V2,broken_small,22,16,0.7273,0.6847,0.2551,0.2283,5194
+CNN V2,contamination,21,15,0.7143,0.8739,0.3,0.2875,5058
+CNN V3,good,20,12,0.6,,,,11782
+CNN V3,broken_large,20,20,1.0,0.6582,0.1723,0.1582,13731
+CNN V3,broken_small,22,19,0.8636,0.6117,0.3973,0.3173,11152
+CNN V3,contamination,21,18,0.8571,0.8035,0.4595,0.4131,13134

@@ -1,0 +1,7 @@
+numpy
+pandas
+opencv-python-headless
+torch
+scikit-learn
+matplotlib
+huggingface-hub>=1.32,<2
